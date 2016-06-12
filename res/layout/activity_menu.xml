@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backgnd" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+   		android:orientation="vertical"
+   		android:gravity="center"
+    	>
+        <LinearLayout 
+            android:layout_width="120dp"
+   	 		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:gravity="center_horizontal"
+    		>
+        <Button
+        	android:id="@+id/menu_button_consult"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="" />
+        <TextView
+        	android:id="@+id/menu_text_consult"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Consultation" />
+        </LinearLayout> 
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+   	 		android:layout_height="wrap_content"
+    		android:orientation="horizontal"
+    		android:layout_marginTop="20dp"
+    		>
+        <LinearLayout 
+            android:layout_width="120dp"
+   	 		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:gravity="center_horizontal"
+    		android:layout_marginRight="20dp"
+    		>
+        <Button
+        	android:id="@+id/menu_button_estim"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="" />
+        <TextView
+        	android:id="@+id/menu_text_estim"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Estimation" />
+        </LinearLayout> 
+        
+        <LinearLayout 
+            android:layout_width="120dp"
+   	 		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:gravity="center_horizontal"
+    		>
+        <Button
+        	android:id="@+id/menu_button_relever"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="" />
+        <TextView
+        	android:id="@+id/menu_text_relever"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Relever des Index" />
+        </LinearLayout> 
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

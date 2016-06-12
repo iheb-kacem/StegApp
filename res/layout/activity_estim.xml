@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" 
+    android:background="@drawable/backgnd" >
+    
+    
+    <TextView
+    android:id="@+id/estim_text_msg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center_horizontal"
+    android:text="" />
+
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+   	    
+   	    
+   	        	<LinearLayout
+    	    android:layout_width="250dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="center"
+    	    android:layout_marginTop="20dp"
+    	    android:orientation="horizontal" >
+   	    
+    	<LinearLayout
+    	    android:layout_width="180dp"
+    	    android:layout_height="fill_parent"
+    	    android:layout_gravity="center"
+    	    android:orientation="vertical" >
+
+    	    <CheckBox
+    	        android:id="@+id/estim_check_electricite"
+    	        android:layout_width="160dp"
+    	        android:layout_height="wrap_content"
+    	        android:layout_weight="0.75"
+    	        android:text="Index Electricité" />
+
+    	    <CheckBox
+    	        android:id="@+id/estim_check_chauffeau"
+    	        android:layout_width="160dp"
+    	        android:layout_height="wrap_content"
+    	        android:text="Index Chauffeau" />
+    	    
+    	            <CheckBox
+    	                android:id="@+id/estim_check_gaz"
+    	                android:layout_width="160dp"
+    	                android:layout_height="wrap_content"
+    	                android:text="Index Gaz" />
+
+    	</LinearLayout>
+    
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+    
+         <EditText
+             android:id="@+id/estim_text_electricite"
+             android:layout_width="70dp"
+             android:layout_height="45px"
+		    android:background="@drawable/bg"
+             android:ems="10"
+             android:gravity="center"
+             android:inputType="textEmailAddress" >
+    	        
+             </EditText>
+    
+    		<EditText
+    		    android:id="@+id/estim_text_chauffeau"
+    		    android:layout_width="70dp"
+    		    android:layout_height="45px"
+		    	android:background="@drawable/bg"
+    		    android:ems="10"
+    		    android:gravity="center"
+    		    android:inputType="textEmailAddress" >
+
+    		</EditText>
+    		
+    		<EditText
+    		    android:id="@+id/estim_text_gaz"
+    		    android:layout_width="70dp"
+    		    android:layout_height="45px"
+		    	android:background="@drawable/bg"
+    		    android:ems="10"
+    		    android:gravity="center"
+    		    android:inputType="textEmailAddress" >
+
+    	</EditText>
+    	</LinearLayout>
+    	
+        </LinearLayout>
+    	
+        
+        
+   
+    
+</LinearLayout>
+
+    
+    
+<Button
+	android:id="@+id/estim_submit"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal"
+	android:layout_marginTop="20dp"
+	/>
+    
+
+</LinearLayout>
